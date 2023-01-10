@@ -4,6 +4,7 @@ import {Routes, RouterModule , PreloadAllModules} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import {AboutComponent} from "./about/about.component";
 const routes: Routes = [
      {
        path: 'home',
@@ -14,8 +15,14 @@ const routes: Routes = [
       component: LoginComponent,
     },
   {
+    path:'about',
+    component: AboutComponent
+  },
+  {
     path: '',  redirectTo: '/login', pathMatch: 'full'
-  }
+  },
+
+
 ];
 
 
