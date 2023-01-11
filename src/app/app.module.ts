@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import {RouterTestingModule} from "@angular/router/testing";
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     LoginComponent,
     PagenotfoundComponent,
-    AboutComponent
+    AboutComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
