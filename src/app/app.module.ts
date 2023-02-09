@@ -9,8 +9,7 @@ import {RouterTestingModule} from "@angular/router/testing";
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
-import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +19,14 @@ import { FooterComponent } from './footer/footer.component';
     PagenotfoundComponent,
     AboutComponent,
     HeaderComponent,
-    MainComponent,
+
     FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterTestingModule
+    RouterTestingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
